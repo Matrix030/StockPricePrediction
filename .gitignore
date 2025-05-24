@@ -8,3 +8,41 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment (if used locally)
+.venv/
+.uv/
+
+# uv's installation cache (optional, safe to ignore)
+.uv/
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
